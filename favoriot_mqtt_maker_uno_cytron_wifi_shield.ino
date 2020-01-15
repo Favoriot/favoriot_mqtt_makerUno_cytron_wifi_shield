@@ -24,7 +24,7 @@ const char* password = accessToken;
 int qos = 0;
 
 int celcius = 0;
-int light = 0;
+
 unsigned long lastSend;
 
 WiFiEspClient client;
