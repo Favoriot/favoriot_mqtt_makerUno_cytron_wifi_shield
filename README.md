@@ -4,7 +4,7 @@ tutorial to send data stream using mqtt protocol
 # Requirements: 
   arduino maker uno + wifi shield esp8266
   
-  link: https://my.cytron.io/p-nodemcu-lua-v3-esp8266-wifi-with-ch340c?r=1&gclid=EAIaIQobChMIoMLJ4deE5wIVzA0rCh0NeA5FEAQYASABEgLpivD_BwE
+  link: https://my.cytron.io/p-arduino-iot-wifi-kit-temperature
   
 # Topic:
 mqtt publish : yourapikey + '/v2/streams'
