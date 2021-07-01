@@ -9,7 +9,7 @@ SoftwareSerial Serial1(2,3); //RX,TX
 
 #define sensorPin A0
 
-#define accessToken ""; //replace with your access token
+#define accessToken "rw-apikey/acesstoken"; //replace with your access token
 
 const char* ssid = "";  // **replace the SSID
 const char* pass = "";  // **replace the password
@@ -103,7 +103,7 @@ void loop() {
 void dataStream(int celcius){ 
   String json = "{";
     json += "\"device_developer_id\":"; 
-    json += "\"deviceName@userid\""; // replace with your device developer id
+    json += "\"deviceDefault@favoriot\""; // replace with your device developer id
     json +=",";
     json +="\"data\":";
     json += "{";
