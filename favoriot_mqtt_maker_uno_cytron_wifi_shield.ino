@@ -9,7 +9,7 @@ SoftwareSerial Serial1(2,3); //RX,TX
 
 #define sensorPin A0
 
-#define accessToken "rw-apikey/acesstoken"; //replace with your access token
+#define accessToken "rw-apikey/accesstoken"; //replace with your access token
 
 const char* ssid = "";  // **replace the SSID
 const char* pass = "";  // **replace the password
